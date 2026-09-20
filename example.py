@@ -12,10 +12,10 @@ app = FastAPI()
 
 PROVIDERS = {
     "openrouter": {
-        "label": "OpenRouter (Trinity)",
+        "label": "OpenRouter (Nvidia Ultra)",
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "key_env": "OPENROUTER_API_KEY",
-        "model": "arcee-ai/trinity-large-preview:free",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "auth_header": lambda key: f"Bearer {key}",
     },
     "openai": {

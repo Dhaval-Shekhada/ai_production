@@ -180,3 +180,4 @@ finale/Dockerfile
 finale/.dockerignore
 .vercel
 .env*.local
+.env*
